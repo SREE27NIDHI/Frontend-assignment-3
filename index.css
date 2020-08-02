@@ -1,0 +1,123 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.logo-image{
+    margin-top: 40px;
+}
+.content-para{
+    margin-top: 20px;
+    font-size: .7em;
+    line-height: 1.8em;
+}
+.register-btn{
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    background-color:hsl(0, 0%, 97%);
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+   
+    
+}
+.social-media-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.facebook-icon, .twitter-icon, .instagram-icon{
+    
+    border-radius: 80px;
+  box-shadow: 0px 0px 2px white;
+  padding: 10px;
+}
+
+
+
+
+@media (max-width: 575.98px) { 
+    body{
+        background-image: url('images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%) ;
+    }
+    .logo-image{
+        width: 43%;
+
+    }
+    .content-image{
+       
+        width: 100%;
+    }
+    .content-heading{
+        margin-top: 90px;
+        font-weight: bold;
+        line-height: 1.3em;
+    }
+    .content-para{
+        text-align: center;
+        font-size: 1em;
+
+    }
+    .register-btn{
+       
+        width: 250px;
+        height: 40px;
+        margin-left: 50px;
+       
+       
+        
+    }
+    .social-media-links {
+        text-align: center;
+    }
+    
+    
+
+        
+
+
+
+}
+
+
+@media (min-width: 1200px) { 
+
+    
+    body{
+        background-image: url('images/bg-desktop.svg');
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
+        background-repeat: no-repeat;
+    }
+    .main-content{
+        margin-top: 30px;
+    }
+
+    .logo-image{
+        width: 13em;
+    }
+    .content-image{
+        margin-top: 20px;
+    }
+    .content-heading{
+        margin-top: 90px;
+        font-weight: bold;
+        line-height: 1.3em;
+    }
+    .social-media-links {
+        text-align: right;
+        margin-right: 40px;
+        
+    }
+    
+    .social-media-links a {
+       color: white;
+    }
+    
+
+  
+}
